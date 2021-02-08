@@ -1,0 +1,135 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #151617;
+    background-image: url('../imagens/fundo.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-card {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px 50px 0px;
+    margin: auto;
+    margin-top: 2em;
+    background: rgba( 255, 255, 255, 0.20 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.img-perfil-card {
+    display: flex;
+    justify-content: center;
+}
+
+
+.hr {
+    height: 1px;
+    background-color: #000;
+    width: 30%;
+}
+
+.card-title {
+    font-size: 1.3rem;
+}
+
+.card-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 1em;
+}
+
+.card-perfil {
+    background-color: rgba(180, 206, 180, 0.75);
+    box-shadow: -10px 5px 20px 0px #000;
+    border-radius: 20px;
+}
+
+.botoes-card {
+    display: flex;
+    justify-content: center;
+}
+
+#btn-sobre {
+    border: 2px solid #000;
+    border-radius: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    user-select: none;
+    background-color: black;
+}
+
+#btn-projetos {
+    border: 2px solid #000;
+    border-radius: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    user-select: none;
+    background-color: black;
+}
+
+.icon-redes-sociais {
+    text-align: center;
+    padding: 10px;
+}
+
+.title-text {
+    margin-top: 1em;
+    font-weight: 600;
+}
+
+.title-subtitle {
+    margin: 1em 0;
+}
+
+.text {
+    display: flex;
+    padding: 5px 17px;
+    color: #fff;
+}
+
+.links-redes-sociais {
+    text-decoration: none;
+}
+
+.links-redes-sociais i {
+    color: #fff;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.rodape {
+    color: #fff;
+}
+
+.rodape a {
+    color: cyan;
+}
+
+#footer-elementos {
+    display: flex;
+    margin-top: 1em;
+    justify-content: space-between;
+    color: #fff;
+}
+
+#footer-elementos .email {
+    padding: 15px 0px 15px 0px;
+}
+
+#texto-1 {
+    display: block;
+}
+
+#texto-2 {
+    display: none;
+}
